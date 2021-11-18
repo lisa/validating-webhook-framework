@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strconv"
 
+	utils "github.com/lisa/validating-webhook-framework/pkg/webhooks/utils"
 	cl "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	utils "github.com/openshift/validating-webhook-framework/pkg/webhooks/utils"
 	admissionregv1 "k8s.io/api/admissionregistration/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"

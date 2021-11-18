@@ -9,9 +9,9 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	admissionctl "sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 
-	responsehelper "github.com/openshift/validating-webhook-framework/pkg/helpers"
-	"github.com/openshift/validating-webhook-framework/pkg/webhooks"
-	"github.com/openshift/validating-webhook-framework/pkg/webhooks/utils"
+	responsehelper "github.com/lisa/validating-webhook-framework/pkg/helpers"
+	"github.com/lisa/validating-webhook-framework/pkg/webhooks"
+	"github.com/lisa/validating-webhook-framework/pkg/webhooks/utils"
 )
 
 var log = logf.Log.WithName("dispatcher")

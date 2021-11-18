@@ -86,7 +86,7 @@ Registering involves creating a file in [pkg/webhooks](pkg/webhooks) (eg [add_na
 package webhooks
 
 import (
-  "github.com/openshift/validating-webhook-framework/pkg/webhooks/namespace"
+  "github.com/lisa/validating-webhook-framework/pkg/webhooks/namespace"
 )
 
 func init() {
@@ -308,8 +308,8 @@ Then at the shell run:
 ```shell
 # make syncset
 docker run \
-    -v /Users/youruser/git/github.com/openshift/validating-webhook-framework:/Users/youruser/git/github.com/openshift/validating-webhook-framework \
-    -w /Users/youruser/git/github.com/openshift/validating-webhook-framework \
+    -v /Users/youruser/git/github.com/lisa/validating-webhook-framework:/Users/youruser/git/github.com/lisa/validating-webhook-framework \
+    -w /Users/youruser/git/github.com/lisa/validating-webhook-framework \
     --rm \
     golang:1.14 \
       go run \

@@ -8,10 +8,10 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/lisa/validating-webhook-framework/pkg/syncset"
+	webhooks "github.com/lisa/validating-webhook-framework/pkg/webhooks"
+	utils "github.com/lisa/validating-webhook-framework/pkg/webhooks/utils"
 	templatev1 "github.com/openshift/api/template/v1"
-	"github.com/openshift/validating-webhook-framework/pkg/syncset"
-	webhooks "github.com/openshift/validating-webhook-framework/pkg/webhooks"
-	utils "github.com/openshift/validating-webhook-framework/pkg/webhooks/utils"
 	admissionregv1 "k8s.io/api/admissionregistration/v1"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"

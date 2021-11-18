@@ -9,7 +9,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/openshift/validating-webhook-framework/pkg/webhooks"
+	"github.com/lisa/validating-webhook-framework/pkg/webhooks"
 	admissionregv1 "k8s.io/api/admissionregistration/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

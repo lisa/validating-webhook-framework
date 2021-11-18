@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/openshift/validating-webhook-framework/pkg/testutils"
-	"github.com/openshift/validating-webhook-framework/pkg/webhooks/clusterlogging"
+	"github.com/lisa/validating-webhook-framework/pkg/testutils"
+	"github.com/lisa/validating-webhook-framework/pkg/webhooks/clusterlogging"
 	admissionv1 "k8s.io/api/admission/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"

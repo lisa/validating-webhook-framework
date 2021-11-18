@@ -1,7 +1,7 @@
 package webhooks
 
 import (
-	"github.com/openshift/validating-webhook-framework/pkg/webhooks/regularuser"
+	"github.com/lisa/validating-webhook-framework/pkg/webhooks/regularuser"
 )
 
 func init() {

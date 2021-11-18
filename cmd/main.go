@@ -14,8 +14,8 @@ import (
 	"k8s.io/klog/v2/klogr"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 
-	"github.com/openshift/validating-webhook-framework/pkg/dispatcher"
-	"github.com/openshift/validating-webhook-framework/pkg/webhooks"
+	"github.com/lisa/validating-webhook-framework/pkg/dispatcher"
+	"github.com/lisa/validating-webhook-framework/pkg/webhooks"
 )
 
 var log = logf.Log.WithName("handler")

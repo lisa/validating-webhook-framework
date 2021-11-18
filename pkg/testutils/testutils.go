@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	responsehelper "github.com/openshift/validating-webhook-framework/pkg/helpers"
-	"github.com/openshift/validating-webhook-framework/pkg/webhooks/utils"
+	responsehelper "github.com/lisa/validating-webhook-framework/pkg/helpers"
+	"github.com/lisa/validating-webhook-framework/pkg/webhooks/utils"
 	admissionv1 "k8s.io/api/admission/v1"
 	authenticationv1 "k8s.io/api/authentication/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

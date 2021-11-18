@@ -3,7 +3,7 @@ package hiveownership
 import (
 	"sync"
 
-	"github.com/openshift/validating-webhook-framework/pkg/webhooks/utils"
+	"github.com/lisa/validating-webhook-framework/pkg/webhooks/utils"
 	admissionregv1 "k8s.io/api/admissionregistration/v1"
 	admissionv1 "k8s.io/api/apps/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

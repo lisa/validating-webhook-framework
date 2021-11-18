@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/openshift/validating-webhook-framework/pkg/testutils"
+	"github.com/lisa/validating-webhook-framework/pkg/testutils"
 
 	admissionv1 "k8s.io/api/admission/v1"
 	admissionregv1 "k8s.io/api/admissionregistration/v1"

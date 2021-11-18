@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/openshift/validating-webhook-framework/pkg/webhooks/utils"
+	"github.com/lisa/validating-webhook-framework/pkg/webhooks/utils"
 	admissionv1 "k8s.io/api/admission/v1"
 	admissionregv1 "k8s.io/api/admissionregistration/v1"
 	corev1 "k8s.io/api/core/v1"

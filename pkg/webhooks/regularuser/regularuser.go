@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/lisa/validating-webhook-framework/pkg/webhooks/namespace"
+	"github.com/lisa/validating-webhook-framework/pkg/webhooks/utils"
 	networkv1 "github.com/openshift/api/network/v1"
-	"github.com/openshift/validating-webhook-framework/pkg/webhooks/namespace"
-	"github.com/openshift/validating-webhook-framework/pkg/webhooks/utils"
 	admissionv1 "k8s.io/api/admission/v1"
 	admissionregv1 "k8s.io/api/admissionregistration/v1"
 	corev1 "k8s.io/api/core/v1"
